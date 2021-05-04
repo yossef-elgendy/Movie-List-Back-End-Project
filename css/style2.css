@@ -1,0 +1,259 @@
+.zoomBOut {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.zoomBIn {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    transition: transform ease 0.3s;
+}
+.zoomBIn:hover {
+    transform: scale(1.2);
+}
+
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.table-margin{
+    margin-bottom: 100px;
+}
+
+#list_1{
+    border-radius: 20px !important;
+}
+
+#list_2{
+    border-radius: 20px !important;
+}
+
+#list_1 button{
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+}
+#list_1{
+    border: dot-dot-dash 10px;
+}
+
+#list_2, #list_2 label,#list_2 input {
+    font-size: 13px;
+}
+
+.small-img{
+    height: 100px;
+    width: 75px;
+    border-radius: 3px;
+
+}
+
+.carousel{
+    margin-bottom: 80px !important;
+}
+
+.bg-custom1{
+    background: #410d3b;
+}
+
+.bg-custom2{
+    background: #a2155e;
+}
+
+.carousel-item img{
+    height: 300px;
+}
+
+.nav-link-hover, .nav-link-hover-active{
+    text-decoration: none;
+    color:#ffffff;
+    margin-left: 10px;
+    position: relative;
+}
+
+.nav-link-hover::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    display: block;
+
+    background: #ffffff;
+    transition: all ease-in-out 250ms;
+}
+
+.nav-link-hover-active::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    display: block;
+    background: #ffffff;
+
+}
+
+
+
+.nav-link-hover:hover , .nav-link-hover-active{
+    color: #ffffff !important;
+}
+
+.bg-primary{
+    background: url("../images/back.jpg") !important;
+    background-repeat: repeat;
+    background-size: contain ;
+}
+
+.fa-customize{
+    color: #f6f6f6;
+}
+
+.fa-custom{
+    color:#50ac98;
+}
+
+.primary-color{
+    color:#50ac98 ;
+}
+
+.btn-custom{
+    position: relative;
+    font-size: 12pt;
+    color: #fff8f8;
+    background: #50ac98;
+    font-weight: 700;
+    border-radius: 2px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-custom::before{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 0;
+    border-radius: 2px;
+    height: 0;
+    outline: none;
+    background: rgba(45, 45, 45, 0.1);
+    transition: all step-start 1000ms;
+}
+
+.btn-custom:hover::before{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-outline-success{
+    border: solid 1px #262525 ;
+    color: #262525;
+}
+
+#search5{
+    border-radius: 15px !important;
+}
+
+.btn-outline-success:hover{
+    background: #262525 ;
+}
+
+.tab{
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
+    .nav-link-hover, .nav-link-hover-active{
+        text-decoration: none;
+        color:#ffffff;
+        margin-left: 10px;
+        position: relative;
+    }
+
+
+
+    .nav-link-hover::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 4px;
+        display: block;
+
+        background:#ffffff;
+        transition: all ease-in-out 250ms;
+    }
+
+    .nav-link-hover-active::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        display: block;
+        background: #ffffff;
+
+    }
+
+    .nav-link-hover:hover::before {
+        width: 100%;
+    }
+
+    .nav-link-hover:hover , .nav-link-hover-active{
+        color: #ffffff !important;
+    }
+
+    .carousel-item img{
+        height: 500px;
+    }
+
+    footer{
+        position: fixed;
+        width: 100%;
+        height: 30px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 250px !important;
+    }
+
+    .carousel{
+        margin-bottom: 90px !important;
+    }
+
+    body{
+        position: relative;
+    }
+
+
+    .small-img{
+        height: 100px;
+        width: 70px;
+        border-radius: 5px;
+
+    }
+
+    #list_2, #list_2 label, #list_2 input {
+        font-size: 18px;
+    }
+
+}
