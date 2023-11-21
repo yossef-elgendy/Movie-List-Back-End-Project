@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simple application designed to create and manage lists of everyone's favorite movies. It served as a valuable learning experience, allowing me to enhance my coding skills with PHP, jQuery, and Ajax.
+This project is a simple application designed to create and manage lists of everyone's favourite movies. It was a valuable learning experience, allowing me to enhance my coding skills with PHP, jQuery, and Ajax.
 
 ## Project Highlights
 
@@ -19,7 +19,7 @@ This project is a simple application designed to create and manage lists of ever
 
 ## Learning Experience
 
-Working on this project was a delightful experience that contributed to my knowledge in coding. Key learning points include:
+Working on this project was a delightful experience that contributed to my knowledge of coding. Key learning points include:
 
 - PHP development for server-side processing.
 - Implementation of jQuery for enhanced user interface interactions.
@@ -38,8 +38,6 @@ I would like to express my gratitude for the learning opportunities provided by 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to fork, contribute, or use this project as a reference for your own learning and development endeavors.
+Feel free to fork, contribute, or use this project as a reference for your own learning and development endeavours.
 
 Happy coding!
